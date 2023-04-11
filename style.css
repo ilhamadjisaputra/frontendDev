@@ -1,0 +1,421 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #326e9b;
+}
+/* navbar */
+.container {
+  padding: 8px;
+}
+/* Profil */
+.container-profil h2 {
+  padding: 80px;
+}
+.container-profil img {
+  padding-top: px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.container-profil p {
+  padding: 80px;
+  text-align: justify;
+}
+
+/*gunung*/
+.head h2 {
+  padding: 80px;
+}
+.cardgn {
+  display: flex;
+  justify-content: center;
+  padding: 0px 80px;
+  flex-wrap: wrap;
+}
+.cardgn p {
+  font-size: 14px;
+}
+.cardgn .card {
+  display: flex;
+  height: 340px;
+  margin: 15px;
+}
+.seemore {
+  padding-top: 50px;
+}
+/* Edukasi */
+#eduhead h4 {
+  color: #326e9b;
+  padding: 40px 100px;
+  text-align: left;
+  background-color: white;
+}
+#edukasi {
+  padding: 0px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+#edukasi .edubox {
+  position: relative;
+  width: 300px;
+  padding: 30px;
+  border-radius: 4px;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+#edukasi .edubox::before {
+  content: "";
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(255, 255, 255, 0.1);
+  z-index: 2;
+  pointer-events: none;
+}
+#edukasi .edubox .eduicon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: 700;
+  transition: 1s;
+}
+#edukasi .edubox:nth-child(1) .eduicon {
+  box-shadow: 0 0 0 0 #326e9b;
+  background: #326e9b;
+}
+#edukasi .edubox:nth-child(1):hover .eduicon {
+  box-shadow: 0 0 0 400px #326e9b;
+}
+#edukasi .edubox:nth-child(2) .eduicon {
+  box-shadow: 0 0 0 0 #326e9b;
+  background: #326e9b;
+}
+#edukasi .edubox:nth-child(2):hover .eduicon {
+  box-shadow: 0 0 0 400px #326e9b;
+}
+#edukasi .edubox:nth-child(3) .eduicon {
+  box-shadow: 0 0 0 0 #326e9b;
+  background: #326e9b;
+}
+#edukasi .edubox:nth-child(3):hover .eduicon {
+  box-shadow: 0 0 0 400px #326e9b;
+}
+#edukasi .edubox:nth-child(4) .eduicon {
+  box-shadow: 0 0 0 0 #326e9b;
+  background: #326e9b;
+}
+#edukasi .edubox:nth-child(4):hover .eduicon {
+  box-shadow: 0 0 0 400px #326e9b;
+}
+#edukasi .edubox:nth-child(5) .eduicon {
+  box-shadow: 0 0 0 0 #326e9b;
+  background: #326e9b;
+}
+#edukasi .edubox:nth-child(5):hover .eduicon {
+  box-shadow: 0 0 0 400px #326e9b;
+}
+#edukasi .edubox:nth-child(6) .eduicon {
+  box-shadow: 0 0 0 0 #326e9b;
+  background: #326e9b;
+}
+#edukasi .edubox:nth-child(6):hover .eduicon {
+  box-shadow: 0 0 0 400px #326e9b;
+}
+#edukasi .edubox:nth-child(7) .eduicon {
+  box-shadow: 0 0 0 0 #326e9b;
+  background: #326e9b;
+}
+#edukasi .edubox:nth-child(7):hover .eduicon {
+  box-shadow: 0 0 0 400px #326e9b;
+}
+#edukasi .edubox:nth-child(8) .eduicon {
+  box-shadow: 0 0 0 0 #326e9b;
+  background: #326e9b;
+}
+#edukasi .edubox:nth-child(8):hover .eduicon {
+  box-shadow: 0 0 0 400px #326e9b;
+}
+#edukasi .edubox .edu-content {
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+}
+#edukasi .edubox:hover .edu-content {
+  color: #fff;
+}
+#edukasi .edubox:hover .edu-content p {
+  color: #fff;
+}
+#edukasi .edubox .edu-content h3 {
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 0;
+}
+#edukasi .edubox .edu-content p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+#edukasi .edubox .edu-content a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+#edukasism {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+#edukasism a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #326e9b;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.seemore1 {
+  padding-top: 30px;
+}
+
+/* Contact page*/
+#conhead h4 {
+  color: #326e9b;
+  padding: 40px 100px;
+  text-align: left;
+  background-color: white;
+}
+#contact h4 {
+  color: #326e9b;
+  padding: 40px 100px;
+  text-align: left;
+  background-color: white;
+}
+#contact {
+  padding: 40px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+#contact .conbox {
+  position: relative;
+  width: 300px;
+  padding: 30px;
+  border-radius: 4px;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+#contact .conbox::before {
+  content: "";
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+#contact .conbox .conicon {
+  position: relative;
+  color: #fff;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  transition: 1s;
+}
+#contact .conbox:nth-child(1) .conicon {
+  box-shadow: 0 0 0 0 #54bab9;
+  background: #54bab9;
+}
+#contact .conbox:nth-child(1):hover .conicon {
+  box-shadow: 0 0 0 400px #54bab9;
+}
+#contact .conbox:nth-child(2) .conicon {
+  box-shadow: 0 0 0 0 #ffef82;
+  background: #ffef82;
+}
+#contact .conbox:nth-child(2):hover .conicon {
+  box-shadow: 0 0 0 400px #ffef82;
+}
+#contact .conbox:nth-child(3) .conicon {
+  box-shadow: 0 0 0 0 #e4aec5;
+  background: #e4aec5;
+}
+#contact .conbox:nth-child(3):hover .conicon {
+  box-shadow: 0 0 0 400px #e4aec5;
+}
+#contact .conbox .con-content {
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+}
+#contact .conbox:hover .con-content {
+  color: #fff;
+}
+#contact .conbox:hover .con-content p {
+  color: #fff;
+}
+#contact .conbox .con-content h3 {
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 0;
+}
+#contact .conbox .con-content p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+#contact .conbox .con-content a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.iconback {
+  padding: 30px;
+  width: 10px;
+}
+.container-profil-page {
+  padding-top: 100px;
+}
+
+/* Konten gunung */
+
+/* arjuno */
+.konten {
+  padding-top: 100px;
+}
+.text-kntn {
+  padding: 20px 80px;
+  text-align: justify;
+}
+/* Profil */
+.container-profil-page h2 {
+  padding: 80px;
+}
+.container-profil-page img {
+  padding-top: px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.container-profil-page p {
+  padding: 80px;
+  text-align: justify;
+}
+.container-profil-page {
+  padding-top: 50px;
+}
+.headgunung {
+  padding-top: 50px;
+}
+.headgunung h2 {
+  padding: 80px;
+}
+/* edukasi */
+#carouselExampleSlidesOnly1 {
+  padding-top: 100px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.edukasi-kntn {
+  padding: 50px 80px;
+}
+.edukasi-kntn p {
+  text-align: justify;
+}
+.edukasi-kntn ul li {
+  text-align: justify;
+}
+.edukasi-kntn li {
+  text-align: justify;
+}
+
+.search {
+  position: relative;
+  box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+}
+
+.search input {
+  height: 60px;
+  text-indent: 25px;
+  border: 2px solid #d6d4d4;
+}
+
+.search input:focus {
+  box-shadow: none;
+  border: 2px solid blue;
+}
+
+.search .fa-search {
+  position: absolute;
+  top: 20px;
+  left: 16px;
+}
+
+.search button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 50px;
+  width: 110px;
+  background: blue;
+}
+
+#headatas {
+  justify-content: space-evenly;
+}
+.dropdown {
+  padding-left: 80px;
+}
+#downloadgambar p {
+  text-align: center;
+}

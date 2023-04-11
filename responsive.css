@@ -1,0 +1,65 @@
+@media (max-width: 952px) {
+  .container img {
+    width: 200px;
+  }
+  .container-profil img {
+    width: 270px;
+  }
+  .container-profil h2 {
+    padding: 50px;
+  }
+  .container-profil p {
+    padding: 50px;
+  }
+  #carouselExampleSlidesOnly1 {
+    padding-top: 100px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .edukasi-kntn {
+    padding: 50px 80px;
+  }
+  /*gunung*/
+  .head h2 {
+    padding: 50px;
+  }
+  .cardgn {
+    padding: 0px 50px;
+  }
+  .cardgn .card {
+    margin: 10px;
+  }
+  .konten {
+    padding-top: 100px;
+  }
+  .konten img {
+    height: 300px;
+  }
+  .text-kntn {
+    padding: 20px 50px;
+  }
+  .peta-kntn img {
+    height: 600px;
+  }
+  @media (max-width: 858px) {
+    .container img {
+      width: 250px;
+    }
+    .konten img {
+      height: 250px;
+    }
+    .text-kntn {
+      padding: 20px 30px;
+    }
+    #carouselExampleSlidesOnly1 {
+      padding-top: 100px;
+      width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .edukasi-kntn {
+      padding: 20px 30px;
+    }
+  }
+}
